@@ -6,7 +6,7 @@ import Container from "./Container";
 
 function App() {
  
-  const convert = (setContent) => {
+  const convert = (content) => {
     alert(content)
     console.log("content");
 

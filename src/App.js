@@ -6,11 +6,15 @@ import Container from "./Container";
 
 function App() {
  
-  
+  const convert = (setContent) => {
+    alert(setContent)
+    console.log("elo");
+
+  };
  
   return (
     <Container>
-     <Form />
+     <Form convert={convert}/>
 
     </Container>
   );

@@ -3,20 +3,18 @@ import React, { useState } from 'react';
 
 
 
-const Form = () => {
+const Form = ({convert}) => {
     const [content, setContent] = useState("");
     const [currency, setCurrency] = useState();
 
     const onFormSubmit = (event) =>{
         event.preventDefault();
         setContent("");
-
+        
+        convert();
     };
 
-    const convert = () => {
-        console.log(setContent);
     
-      };
 
     return(
     <form className="form" onSubmit={onFormSubmit} >
@@ -53,9 +51,9 @@ const Form = () => {
         </fieldset>
 
         <p>
-            <button className="form__button" onClick={() => convert()} >Policz wartość</button>
+            <button className="form__button" >Policz wartość</button>
         </p>
-        <p>SIema</p>
+        <span>Elo</span>
     </form>
     );
 };

@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.title1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 5 auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 138, 125);
+}
+
+.form_currency {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5 auto;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    
+}
+
+
+
+
+
+
+.form {
+    margin: 25px auto;
+    
+
+
+
+}
+
+.legend {
+
+    text-align: center;
+    background-color: rgb(39, 138, 125);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.form__labelText {
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    margin-right: 105px;
+    background-color: rgba(39, 138, 125, 0.701);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    
+
+}
+
+.form__field {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+
+}
+
+.form__field--option {
+    border: 3px solid black;
+    padding: 9px;
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+    margin-left: 4px;
+    
+
+}
+
+.form__field--option:hover {
+    border: 3px solid rgb(39, 138, 125);
+
+
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: rgb(39, 138, 125);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.form__button:hover {
+    background-color: rgb(39, 138, 110);
+}
+
+.form__button:active {
+    background-color: rgb(39, 138, 100);
+}
+
+.form__fieldset {
+    border: 2px solid rgb(39, 138, 125);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form__field:hover {
+    border-color: rgb(39, 138, 125);
+}
+

@@ -7,8 +7,8 @@ import Container from "./Container";
 function App() {
  
   const convert = (setContent) => {
-    alert(setContent)
-    console.log("elo");
+    alert(content)
+    console.log("content");
 
   };
  

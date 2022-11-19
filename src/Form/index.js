@@ -53,7 +53,7 @@ const Form = ({convert}) => {
         <p>
             <button className="form__button" >Policz wartość</button>
         </p>
-        <span>Elo</span>
+        <span>siema</span>
     </form>
     );
 };

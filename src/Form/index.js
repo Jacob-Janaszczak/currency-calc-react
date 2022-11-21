@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 
 const Form = ({convert}) => {
-    const [content, setContent] = useState("");
+    const [content, setContent] = useState();
     const [currency, setCurrency] = useState();
 
     const onFormSubmit = (event) =>{

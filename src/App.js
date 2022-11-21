@@ -8,7 +8,7 @@ function App() {
  
   const convert = (content) => {
     alert(content)
-    console.log("content");
+    console.log(content);
 
   };
  
